@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Form , Header , Para,  Input1, Label, Button} from './styled';
+import {Form , Header , Para,  Input1, Label, Button, Background} from './styled';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
     
         {/* <Leftdiv></Leftdiv> */}
         {/* <Rightdiv></Rightdiv> */}
+    <Background>
       <Form>
         <Header>Welcome!</Header>
         <Para>Sign in to your Account</Para>
@@ -17,7 +18,7 @@ function App() {
         <Input1 type="password" name="password" placeholder="password"/>
         <Button type="submit">Submit</Button>
       </Form>
-          
+      </Background>    
      
      
     </div>
